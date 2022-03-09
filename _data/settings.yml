@@ -106,9 +106,9 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: Creative Director, icon: 'icon-1.png', date: 'Jan 2019 - Present', organization: 'Vision Live'}
+- {name: VFX Artist, icon: 'icon-2.png', date: 'Mar 2010 - Present', organization: 'Mirror Mind Pictures & Vision Live'}
+- {name: Composer and Producer, icon: 'icon-3.png', date: 'Sep 2017 - Present', organization: 'Stephen Raven'}
 
 
 #-------------------------------
@@ -116,10 +116,10 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: BA Hons in Film Production, date: '2020', organization: 'Salford University'}
+- {name: Distinction in Creative Media Extended Diploma, date: '2018', organization: 'Newman College'}
+- {name: Grade 3 in Electric Guitar - Merit, date: '2014', organization: 'RGT'}
+- {name: Grade 5 in Electric Guitar, date: 'In Progress', organization: 'RGT'}
 
 
 #-------------------------------
@@ -128,22 +128,22 @@ education:
 services-title: Services
 services:
 - {
-    name: UI Design,
+    name: Custom VFX/Custom Soundtracks,
     icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
-  }
-- {
-    name: UX Design,
-    icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'I will brief the client striking a mutual understanding aswell as a quote on the production of Music/Video effects',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
+    name: Brand Design,
+    icon: ti-vector,
+    description: 'After payment I will start working on a portfolio of work for your business to use to your will. (Indents, lower-thirds, custom logos and more!)',
+    active: true # Add true to select section
+  }
+- {
+    name: Video Editing Service,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    active: # Add true to select section
+    description: 'I will edit your videos and get them delivered/compressed professionally and on time all while provide a quality customer service',
+    active: true # Add true to select section
   }
 
 
