@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How to Make Your Own Logo Using Photoshop
-date:   2017-05-26 15:05:55 +0300
+date:   2022-09-21 13:08:55 
 image:  /assets/images/blog/post-5.jpg
 author: Stephen Raven
 tags:   Graphic Design
