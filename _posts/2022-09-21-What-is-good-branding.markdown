@@ -3,8 +3,8 @@ layout: post
 title:  What is good brand awareness?
 date:   2022-09-21 13:05:55
 image:  /assets/images/blog/post-2.jpg
-author: uixgeek
-tags:   UX design
+author: Stephen Raven
+tags:   Branding
 ---
 
 1. What is good brand awareness?
