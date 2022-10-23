@@ -186,7 +186,7 @@ portfolio-label:
 
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "https://cutt.ly/ZNw0PES"
     portfolio-type:
      - type: "design"
      - type: "illustration"
@@ -218,7 +218,7 @@ portfolio-items:
       - type: "design"
       
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "https://cutt.ly/ZNw0PES"
     portfolio-type:
       - type: "branding"
       
@@ -293,4 +293,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: 
+contact-email: Official.StephenRaven@gmail.com
