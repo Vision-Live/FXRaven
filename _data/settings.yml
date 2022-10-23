@@ -6,7 +6,7 @@ logo:
 author: S.J. Raven
 description: Editing and VFX Artist/Web Designer
 email: official.stephenraven@gmail.com
-phone: +44 7880 25 6066
+phone: +44 7492396997
 address: Preston/Lancashire United Kingdom
 copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-   I am a creative and intuitive individual with a  passion for flexible team work!
+   I am a creative individual with a passion for music, and I am qualified in film production.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -107,7 +107,7 @@ skills:
 experience-title: Experience
 experience:
 - {name: Creative Director, icon: 'icon-1.png', date: 'Jan 2019 - Present', organization: 'Vision Live'}
-- {name: VFX Artist, icon: 'icon-2.png', date: 'Mar 2010 - Present', organization: 'Mirror Mind Pictures & Vision Live'}
+- {name: VFX Artist, icon: 'icon-2.png', date: 'Mar 2015 - Present', organization: 'Mirror Mind Pictures & Vision Live'}
 - {name: Composer and Producer, icon: 'icon-3.png', date: 'Sep 2017 - Present', organization: 'Stephen Raven'}
 
 
@@ -119,7 +119,7 @@ education:
 - {name: BA Hons in Film Production, date: '2020', organization: 'Salford University'}
 - {name: Distinction in Creative Media Extended Diploma, date: '2018', organization: 'Newman College'}
 - {name: Grade 3 in Electric Guitar - Merit, date: '2014', organization: 'RGT'}
-- {name: Grade 5 in Electric Guitar, date: 'In Progress', organization: 'RGT'}
+- {name: Health and Safety in the workplace - Level 1, date: '2022', organization: 'HST'}
 
 
 #-------------------------------
@@ -154,7 +154,7 @@ services:
 # Portfolio Home Section
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "https://drive.google.com/file/d/1jDdwuUqW6rVGub8fCXesx-baz1DYqY29/view?usp=drivesdk"
     
   - image : "assets/images/portfolio/item-2.png"
     url: "#"
