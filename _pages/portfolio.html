@@ -3,25 +3,19 @@ layout: page
 title: Portfolio
 ---
 <!-- portfolio -->
-        <div>
-<iframe width="560" height="315" src="https://drive.google.com/file/d/1jDdwuUqW6rVGub8fCXesx-baz1DYqY29/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section class="portfolio">
+<div class="project">
+
+<a href="http://example.com"><img src="http://placehold.it/350x150" class="rounded-image"></a>
 
 </div>
-    <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.portfolio-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
+
+<div class="project">
+
+<a href="http://example.com"><iframe width="560" height="315" src="https://drive.google.com/file/d/1jDdwuUqW6rVGub8fCXesx-baz1DYqY29/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+
+</div>
+
 </section>
 <!-- /portfolio -->
 
