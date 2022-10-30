@@ -3,9 +3,6 @@ layout: page
 title: Portfolio
 ---
 <!-- portfolio -->
-<body>
-  <iframe src="https://drive.google.com/file/d/1jDdwuUqW6rVGub8fCXesx-baz1DYqY29/preview" width="640" height="480"></iframe>
-</body>
 <section class="section">
   <div class="container">
     <div class="row mb-5">
@@ -22,6 +19,11 @@ title: Portfolio
         </div>
       </div>
     </div>
+  <div>
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1jDdwuUqW6rVGub8fCXesx-baz1DYqY29/preview" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.settings.portfolio-items %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
