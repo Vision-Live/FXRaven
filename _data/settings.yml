@@ -245,12 +245,12 @@ testimonial-items:
     content : "I have employed Stephen to edit and produce a DVD of my brother's wedding. <strong>My brother and his new wife are delighted with the finished result.</strong>"
     
   - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-2.png"
+    image: "assets/images/testimonial/client-3.png"
     designation: "CEO, Funder"
     content: "Thank you for your creative input in designing my new logo. I think it looks amazing and I'm really happy with the end result.<strong> The video advert is also fantastic,</strong> thank you so much for your hard work."
     
   - name: "Patrick B. Langfield"
-    image: "assets/images/testimonial/client-3.png"
+    image: "assets/images/testimonial/client-2.png"
     designation: "Marketing Director"
     content: "We at Mirror Mind are so grateful for your amazing work on our new brand identity. We are absolutely <strong>thrilled with the end result</strong> and we couldn't have done it without you!"
 
