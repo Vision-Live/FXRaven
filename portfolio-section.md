@@ -1,6 +1,4 @@
 ---
-youtubeId: KD2clFq6ZZc
+youtubeId:KD2clFq6ZZc
 ---
-
-
 {% include youtubePlayer.html id=page.youtubeId %}
