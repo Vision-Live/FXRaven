@@ -52,7 +52,7 @@ social:
 
 # About Section
 blurb:
-   I am a creative individual with a passion for music, and I am qualified in film production.
+   I'm a gifted individual who enjoys music and I've worked in film. We won't skip a page in our efforts to transform your marketing strategy into a contemporary programme.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -64,15 +64,15 @@ blurb-btn-name: know more
 work-process:
   - title : "Developing Your Video Project"
     icon : "assets/images/icons/plan.png"
-    content : "It can be difficult to find the right company to handle your next marketing campaign or video production project."
+    content : "Finding the ideal business to manage your upcoming marketing campaign or video production project might be challenging."
     
   - title : "Design and Develop"
     icon : "assets/images/icons/design.png"
-    content : "I am creative musical and flexible, so if you have a video idea in mind, you can book a 45-minute discovery call with me, free of charge, to see what I can offer on 07492 396997."
+    content : "If you have a video idea in mind, phone me at 07492 396997 to schedule a free 45-minute exploration session to see what I can do. I'm creative, musical, and adaptable."
     
   - title : "Deliver"
     icon : "assets/images/icons/print.png"
-    content : "After we agree your requirements, I will agree a time for project delivery at a competitive rate."
+    content : "I will set up a time for project delivery at a reasonable price once we have agreed upon your criteria."
 
 
 # My Team Section
@@ -130,19 +130,19 @@ services:
 - {
     name: Custom VFX/Custom Soundtracks,
     icon: ti-palette,
-    description: 'I will brief the client striking a mutual understanding aswell as a quote on the production of Music/Video effects',
+    description: 'I will give the client a briefing to get a consensus as well as a price estimate for the creation of music/video effects.',
     active: true # Add true to select section
   }
 - {
     name: Brand Design,
     icon: ti-vector,
-    description: 'After payment I will start working on a portfolio of work for your business to use to your will. (Indents, lower-thirds, custom logos and more!)',
+    description: 'I will begin building a portfolio of work for your company to use as you see fit after receiving payment. Indents, lower-thirds, unique logos, and more are available.',
     active: true # Add true to select section
   }
 - {
     name: Video Editing Service,
     icon: ti-panel,
-    description: 'I will edit your videos and get them delivered/compressed professionally and on time all while provide a quality customer service',
+    description: 'I will professionally edit your videos, have them delivered/compressed on time, and provide excellent customer service.',
     active: true # Add true to select section
   }
 
