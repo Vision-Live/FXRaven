@@ -6,8 +6,10 @@ image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---
 
-I was awarded a degree in Film Production from the University of Salford in 2018.   Since then, I have founded my own production company FX Raven.  I specialise in creating exciting video content for all stages of your customer journey.
+In 2020, I received a Film Production degree from the University of Salford. Since then, I've established FX Raven, my own production firm. For all phases of your customer experience, I specialise in producing engaging video content. Our bundle packages are expertly curated to meet your increasing marketing demand.
 
-I inspire creativity in others and can create video content in partnership with your company to fit your budget at a reasonable cost and can enhance your brand by offering all aspects of video and editing support.  I specialise in family and corporate videos, animations, promotional videos for social media engagement and expert interviews.
+I encourage creativity in others, and I can work with your firm to generate video material that fits your needs at a fair price. I can also strengthen your brand by providing assistance with all facets of video and editing. I specialise in creating family and business videos, animations, social media engagement videos, and expert interviews. 
 
-**Interested? Read on for more details.**
+Here at FXRaven, we always have the solutions you need thanks to our diverse network.
+
+**Interested? To learn more, keep reading**
