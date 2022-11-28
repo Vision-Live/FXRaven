@@ -2,7 +2,7 @@
 layout: page
 title: Products and Services
 ---
-{% for %}
+{% for product in site.products %}
 <div class="product">
   <img src="{{ product.image }}" alt="{{ product.name }}" />
   <h2>{{ product.name }}</h2>
