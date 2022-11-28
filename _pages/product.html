@@ -2,13 +2,18 @@
 layout: page
 title: Products and Services
 ---
-{% for product in site.data.products %}
-<div class="product">
-  <img src="{{ product.image }}" alt="{{ product.name }}" />
-  <h2>{{ product.name }}</h2>
-  <p>{{ product.description }}</p>
-  <a href="{{ product.url }}" class="button">View Product</a>
+{% for item in site.data.portfolio %}
+<div class="position-relative rounded hover-wrapper">
+  <img src="{{ product.baseurl }}/{{ product.image }}"
+       alt="product-image"
+       class="img-fluid rounded w-100 d-block">
+  <div class="hover-overlay">
+    <div class="hover-content">
+      <a class="btn btn-light btn-sm" href="{{ product.url }}">view project</a>
+    </div>
+  </div> 
 </div>
+<p>{{ product.description }}</p>
 {% endfor %}
 
 <body>
