@@ -4,9 +4,7 @@ title: Products and Services
 ---
 {% for product in site.data.products %}
 <div class="position-relative rounded hover-wrapper">
-  <img src="{{ product.baseurl }}/{{ product.image }}"
-       alt="product.name"
-       class="img-fluid rounded w-100 d-block">
+  <img src="{{ product.image }}"   alt="{{product.name}}" class="img-fluid rounded w-40 d-block"/>
   <div class="hover-overlay">
     <div class="hover-content">
       <a class="btn btn-light btn-sm" href="{{ product.url }}">view project</a>
