@@ -1,10 +1,6 @@
 -
-  name: product1
+  name: product
   image: /assets/images/Product/image1.png
   description: FXRaven Multi-Media Marketing Plan.
   url: www.fxraven.co.uk
 -
-  name: product2
-  image: /path/to/image2.jpg
-  description: This is the second product.
-  url: /path/to/product2
