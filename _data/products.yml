@@ -1,7 +1,7 @@
 -
   name: product1
-  image: /path/to/image1.jpg
-  description: This is the first product.
+  image: /assets/images/Product/image1.png
+  description: FXRaven Multi-Media Marketing Plan.
   url: /path/to/product1
 -
   name: product2
