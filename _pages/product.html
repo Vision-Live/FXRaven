@@ -3,6 +3,7 @@ layout: page
 title: Products and Services
 ---
 {% for product in site.data.products %}
+<div class="col-6">
 <div class="position-relative rounded hover-wrapper">
   <div class="col-6">
   <img src="{{ product.image }}"   alt="{{product.name}}" class="img-fluid rounded w-40 d-block"/>
@@ -13,6 +14,7 @@ title: Products and Services
    </div> 
   </div>
  </div>
+</div>
 <p>{{ product.description }}</p>
 {% endfor %}
 
