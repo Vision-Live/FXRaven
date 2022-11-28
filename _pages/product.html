@@ -2,15 +2,12 @@
 layout: page
 title: Products and Services
 ---
-<head>
-style="margin: 0 auto; border-radius: 50%;" />
-</head>
 {% for product in site.data.products %}
 <td style="text-align:center">
 <div class="text-center">
 <div class="col-3">
-<div class="position-relative rounded hover-wrapper">
-  <img src="{{ product.image }}" class="center-image"  alt="{{product.name}}" class="img-fluid rounded w-40 d-block"/>
+<div class="position: absolute rounded hover-wrapper style="position: absolute; left: 50%; top: 50%;"">
+  <img src="{{ product.image }}" alt="{{product.name}}" class="img-fluid rounded w-40 d-block"/>
   <div class="hover-overlay">
     <div class="hover-content">
       <a class="btn btn-light btn-sm" href="{{ product.url }}">view project</a>
