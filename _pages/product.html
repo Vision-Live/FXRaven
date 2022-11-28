@@ -2,7 +2,6 @@
 layout: page
 title: Products and Services
 ---
-<body>
 {% for product in site.products %}
 <div class="product">
   <img src="{{ product.image }}" alt="{{ product.name }}" />
@@ -11,4 +10,7 @@ title: Products and Services
   <a href="{{ product.url }}" class="button">View Product</a>
 </div>
 {% endfor %}
+
+<body>
+
 </body>
