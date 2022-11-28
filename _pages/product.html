@@ -3,7 +3,7 @@ layout: page
 title: Products and Services
 ---
 {% for product in site.data.products %}
-<td style="text-align:center">Centered Column</td>
+<td style="text-align:center">
 <div class="text-center">
 <div class="col-3">
 <div class="position-relative rounded hover-wrapper">
@@ -11,6 +11,7 @@ title: Products and Services
   <div class="hover-overlay">
     <div class="hover-content">
       <a class="btn btn-light btn-sm" href="{{ product.url }}">view project</a>
+      </td>
      </div>
    </div> 
   </div>
