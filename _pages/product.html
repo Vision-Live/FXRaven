@@ -2,9 +2,6 @@
 layout: page
 title: Products and Services
 ---
-<body>
-  Hi
-</body>
 <div class="shuffle-wrapper">
 {% for product in site.products %}
 <div class="product">
@@ -12,7 +9,6 @@ title: Products and Services
   <h2>{{ product.name }}</h2>
   <p>{{ product.description }}</p>
   <a href="{{ product.url }}" class="button">View Product</a>
-</div>
 </div>
 {% endfor %}
 
