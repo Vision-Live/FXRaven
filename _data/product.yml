@@ -1,0 +1,12 @@
+```
+-
+  name: product1
+  image: /path/to/image1.jpg
+  description: This is the first product.
+  url: /path/to/product1
+-
+  name: product2
+  image: /path/to/image2.jpg
+  description: This is the second product.
+  url: /path/to/product2
+```
