@@ -2,25 +2,11 @@
 layout: page
 title: Products and Services
 ---
-<div class="row">
-  <div class="column">
-    <img src="/assets/img/bundle1.jpg" alt="Bundle 1">
-  </div>
-  <div class="column">
-    <img src="/assets/img/bundle2.jpg" alt="Bundle 2">
-  </div>
-  <div class="column">
-    <img src="/assets/img/bundle3.jpg" alt="Bundle 3">
-  </div>
-  <div class="column">
-    <img src="/assets/img/bundle4.jpg" alt="Bundle 4">
-  </div>
-  <div class="column">
-    <img src="/assets/img/bundle5.jpg" alt="Bundle 5">
-  </div>
-</div>
 
-<div class="row">
-  <div class="column">
-    <h2>Bundle 1</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit
+<div class="product">
+  <img src="{{ product.image }}" alt="{{ product.name }}" />
+  <h2>{{ product.name }}</h2>
+  <p>{{ product.description }}</p>
+  <a href="{{ product.url }}" class="button">View Product</a>
+</div>
+```
