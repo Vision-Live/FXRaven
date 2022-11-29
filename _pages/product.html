@@ -7,6 +7,7 @@ title: Products and Services
 <div class="container text-center">
 {% for product in site.data.products %}
 <div class="col-3 text-center container">
+  <div style="padding: 20px 0 0 0;"> 
 <div class="position-relative rounded hover-wrapper text-center">
   <img src="{{ product.image }}" alt="{{product.name}}" class="img-fluid rounded w-40 text-center d-block"/>
   <div class="hover-overlay">
@@ -18,6 +19,7 @@ title: Products and Services
   </div>
  </div>
 </div>
+    </div>
 <div class="text-center">
 <p>{{ product.description }}</p>
 {% endfor %}
