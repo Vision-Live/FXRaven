@@ -3,12 +3,12 @@ layout: page
 title: Products and Services
 ---
 <body>
+  <td style="text-align:center">
+<div class="text-center mx-auto">
 {% for product in site.data.products %}
-<td style="text-align:center">
-<div class="text-center">
 <div class="col-3 text-center">
 <div class="position-relative rounded hover-wrapper text-center">
-  <img src="{{ product.image }}" alt="{{product.name}}" class="img-fluid rounded w-40 mx-auto d-block"/>
+  <img src="{{ product.image }}" alt="{{product.name}}" class="img-fluid rounded w-40 text-center d-block"/>
   <div class="hover-overlay">
     <div class="hover-content">
       <a class="btn btn-light btn-sm" href="{{ product.url }}">view product</a>
@@ -18,7 +18,9 @@ title: Products and Services
   </div>
  </div>
 </div>
+<div class="text-center">
 <p>{{ product.description }}</p>
 {% endfor %}
+</div>
 
 </body>
