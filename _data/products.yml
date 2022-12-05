@@ -1,6 +1,6 @@
 -
   container_meta:
-  size_boost: true
+  size_boost: 3
   boost_size: [Multi-Media Marketing Plan]
 -
   name: Multi-Media Marketing Plan
