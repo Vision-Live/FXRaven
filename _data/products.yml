@@ -1,5 +1,5 @@
 - container_meta:
-  size_boost: true
+  size_boost: 2
   boost_size: [Multi-Media Marketing Plan]
 - name: Multi-Media Marketing Plan
   image: /assets/images/product/image1.jpg
