@@ -3,5 +3,5 @@
   image: /assets/images/product/image1.jpg
   description: A multifaceted strategy that involves both the community and local businesses
   url: marketing-plan
-  viewport: max-width: 500px;
+  viewport: max-width; 500px;
 -
