@@ -1,0 +1,7 @@
+- container_meta:
+  size_boost: 2
+  boost_size: [Nathan]
+- name: Nathan
+  image: /assets/Team/image1.jpg
+  description: Live Camera Assistant
+- null
