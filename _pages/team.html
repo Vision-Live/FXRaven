@@ -2,31 +2,26 @@
 layout: page
 title: Our Team
 ---
-<html>
 <head>
-  <style>
-    img:hover {
-      transform: scale(2);
-    }
-    img {
-      transition: 0.5s;
-    }
-  </style>
 </head>
 <body>
-  <?php
-    $team = yaml_parse_file('Team.yml');
-  ?>
-  <h1>Our Team</h1>
-  <?php
-    foreach ($team as $member) {
-  ?>
-  <div>
-    <h2><?php echo $member['name']; ?></h2>
-    <img src="<?php echo $member['image']; ?>" alt="Picture of <?php echo $member['name']; ?>">
+  
+<div class="container text-center">
+{% for product in site.data.team %}
+<div class="col-3 text-center container">
+  <div style="padding: 20px 0 0 0;"> 
+<div class="position-relative rounded hover-wrapper text-center">
+  <img src="{{ product.image }}" alt="{{product.name}}" class="img-fluid rounded w-200 text-center d-block"/>
+  <div class="hover-overlay">
+    <div class="hover-content">
+     </div>
+   </div> 
   </div>
-  <?php
-    }
-  ?>
+ </div>
+    </div>
+<div class="text-center">
+<p>{{ product.description }}</p>
+{% endfor %}
+</div>
+
 </body>
-</html>
