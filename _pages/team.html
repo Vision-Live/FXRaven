@@ -14,22 +14,19 @@ title: Our Team
   </style>
 </head>
 <body>
+  <?php
+    $team = yaml_parse_file('Team.yml');
+  ?>
   <h1>Our Team</h1>
+  <?php
+    foreach ($team as $member) {
+  ?>
   <div>
-    <h2>Brett</h2>
-    <img src="brett.jpg" alt="Picture of Brett">
+    <h2><?php echo $member['name']; ?></h2>
+    <img src="<?php echo $member['image']; ?>" alt="Picture of <?php echo $member['name']; ?>">
   </div>
-  <div>
-    <h2>Jenna</h2>
-    <img src="jenna.jpg" alt="Picture of Jenna">
-  </div>
-  <div>
-    <h2>Haley</h2>
-    <img src="haley.jpg" alt="Picture of Haley">
-  </div>
-  <div>
-    <h2>Alex</h2>
-    <img src="alex.jpg" alt="Picture of Alex">
-  </div>
+  <?php
+    }
+  ?>
 </body>
 </html>
